@@ -1,0 +1,26 @@
+/* ============================================
+   CSS RESET - Noņem pārlūka default stilus
+   ============================================ */
+
+* {
+    /* ↑ Zvaigznīte (*) = selektors VISIEM elementiem */
+   
+    margin: 0;
+    /* ↑ Noņem visas ārējās atstarpes */
+   
+    padding: 0;
+    /* ↑ Noņem visas iekšējās atstarpes */
+   
+    box-sizing: border-box;
+    /* ↑ Padding un border IETILPST width/height */
+    /* Atvieglo izmēru aprēķinus */
+}
+
+/* ============================================
+   PAMATA BODY STILI
+   ============================================ */
+
+body {
+    /* ↑ Stili VISAM lapas saturam */
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
